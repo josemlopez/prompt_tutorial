@@ -4,17 +4,18 @@
 
 ```mermaid
 graph TB
-    A[🎯 Single-Turn Prompts] --> B[🔄 Evolution]
-    B --> C[🤖 Autonomous AI Agents]
-    
-    A --> D[📝 User Query<br/>↓<br/>🤖 LLM Response<br/>↓<br/>✅ Complete]
-    
-    C --> E[🧠 System Prompt<br/>↓<br/>🔄 Agentic Loop<br/>↓<br/>🎯 Goal Achievement]
-    
-    style A fill:#ffcdd2
-    style C fill:#c8e6c9
-    style D fill:#ffebee
-    style E fill:#e8f5e8
+   A[🎯 Single-Turn Prompts] --> B[🔄 Evolution]
+   B --> C[🤖 Autonomous AI Agents]
+   
+   A --> D[📝 User Query<br/>↓<br/>🤖 LLM Response<br/>↓<br/>✅ Complete]
+   
+   C --> E[🧠 System Prompt<br/>↓<br/>🔄 Agentic Loop<br/>↓<br/>🎯 Goal Achievement]
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ffb74d,stroke-width:2px,color:#e2e8f0
+   style D fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -35,16 +36,19 @@ This guide now transitions from the art of crafting single-turn prompts to the *
 
 ```mermaid
 graph LR
-    A[📝 Simple LLM Call] --> B[🔄 Computational Loop]
-    B --> C[🤖 Autonomous Agent]
-    
-    A1[Reactive] --> A
-    B1[Persistent] --> B
-    C1[Proactive] --> C
-    
-    style A fill:#ffcdd2
-    style B fill:#fff3e0
-    style C fill:#e8f5e8
+   A[📝 Simple LLM Call] --> B[🔄 Computational Loop]
+   B --> C[🤖 Autonomous Agent]
+   
+   A1[Reactive] --> A
+   B1[Persistent] --> B
+   C1[Proactive] --> C
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style A1 fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B1 fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style C1 fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -74,14 +78,14 @@ The distinction between a "usual prompt" and an "agentic prompt" lies in their u
 
 ```mermaid
 graph TD
-    A[👤 User Input] --> B[🤖 LLM Processing]
-    B --> C[📄 Static Output]
-    C --> D[✅ Complete]
-    
-    style A fill:#ffcdd2
-    style B fill:#f8bbd9
-    style C fill:#f48fb1
-    style D fill:#e91e63
+   A[👤 User Input] --> B[🤖 LLM Processing]
+   B --> C[📄 Static Output]
+   C --> D[✅ Complete]
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#f48fb1,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#e91e63,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -105,15 +109,15 @@ A **usual prompt** is designed for a single-turn, transactional interaction. It 
 
 ```mermaid
 graph TD
-    A[🎯 Goal Definition] --> B[🧠 Reasoning Engine]
-    B --> C[🛠️ Tool Execution]
-    C --> D[🔄 Continuous Loop]
-    D --> B
-    
-    style A fill:#c8e6c9
-    style B fill:#a5d6a7
-    style C fill:#81c784
-    style D fill:#4caf50
+   A[🎯 Goal Definition] --> B[🧠 Reasoning Engine]
+   B --> C[🛠️ Tool Execution]
+   C --> D[🔄 Continuous Loop]
+   D --> B
+   
+   style A fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -146,23 +150,27 @@ The autonomy of an AI agent is enabled by a continuous operational cycle known a
 
 ```mermaid
 graph TD
-    A[🔍 Perception & Input] --> B[🧠 Planning & Reasoning]
-    B --> C[⚡ Action & Execution]
-    C --> D[📊 Feedback & Observation]
-    D --> A
-    
-    A1[🎯 User Query<br/>📚 Context Gathering<br/>🧠 Memory Access<br/>🔧 Environment State] --> A
-    
-    B1[🤔 Goal Decomposition<br/>⛓️ Chain-of-Thought<br/>🛠️ Tool Selection<br/>⚙️ Parameter Setting] --> B
-    
-    C1[🚀 Tool Invocation<br/>💻 Code Execution<br/>🌐 API Calls<br/>📁 File Operations] --> C
-    
-    D1[📤 Command Output<br/>📊 API Response<br/>⚠️ Error Messages<br/>🔄 State Update] --> D
-    
-    style A fill:#e3f2fd
-    style B fill:#f3e5f5
-    style C fill:#fff3e0
-    style D fill:#e8f5e8
+   A[🔍 Perception & Input] --> B[🧠 Planning & Reasoning]
+   B --> C[⚡ Action & Execution]
+   C --> D[📊 Feedback & Observation]
+   D --> A
+   
+   A1[🎯 User Query<br/>📚 Context Gathering<br/>🧠 Memory Access<br/>🔧 Environment State] --> A
+   
+   B1[🤔 Goal Decomposition<br/>⛓️ Chain-of-Thought<br/>🛠️ Tool Selection<br/>⚙️ Parameter Setting] --> B
+   
+   C1[🚀 Tool Invocation<br/>💻 Code Execution<br/>🌐 API Calls<br/>📁 File Operations] --> C
+   
+   D1[📤 Command Output<br/>📊 API Response<br/>⚠️ Error Messages<br/>🔄 State Update] --> D
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style A1 fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B1 fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C1 fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style D1 fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -245,19 +253,19 @@ After executing an action, the agent observes the result. This could be the outp
 
 ```mermaid
 graph LR
-    A[📝 Static LLM] --> B[🔄 Agentic Loop]
-    B --> C[🤖 Autonomous Agent]
-    
-    A --> D[Single Response]
-    B --> E[Continuous Cycle]
-    C --> F[Goal Achievement]
-    
-    style A fill:#ffcdd2
-    style B fill:#fff3e0
-    style C fill:#e8f5e8
-    style D fill:#ffebee
-    style E fill:#fff8e1
-    style F fill:#f1f8e9
+   A[📝 Static LLM] --> B[🔄 Agentic Loop]
+   B --> C[🤖 Autonomous Agent]
+   
+   A --> D[Single Response]
+   B --> E[Continuous Cycle]
+   C --> F[Goal Achievement]
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 **🔄 This continuous cycle of Perceive → Plan → Act → Observe is what transforms a static LLM into a dynamic, autonomous agent capable of tackling complex, multi-step problems.**

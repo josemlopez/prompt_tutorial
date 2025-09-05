@@ -4,19 +4,20 @@
 
 ```mermaid
 graph TB
-    A[Prompt Structuring Decision] --> B{Purpose?}
-    
-    B --> C[📝 Input Cognitive<br/>Framework]
-    B --> D[🔧 Output Machine<br/>Contract]
-    
-    C --> E[Markdown 📋<br/>XML 🏷️]
-    D --> F[JSON ⚙️]
-    
-    style A fill:#e3f2fd
-    style C fill:#fff3e0
-    style D fill:#f3e5f5
-    style E fill:#e8f5e8
-    style F fill:#ffebee
+   A[Prompt Structuring Decision] --> B{Purpose?}
+   
+   B --> C[📝 Input Cognitive<br/>Framework]
+   B --> D[🔧 Output Machine<br/>Contract]
+   
+   C --> E[Markdown 📋<br/>XML 🏷️]
+   D --> F[JSON ⚙️]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ffb74d,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -43,16 +44,19 @@ For structuring the cognitive framework, formats that are hierarchical and human
 
 ```mermaid
 graph LR
-    A[📋 Markdown] --> B[🎯 Token Efficient]
-    A --> C[👥 Human Readable]
-    A --> D[📊 Clear Hierarchy]
-    
-    B --> E[✅ GPT-5<br/>Recommended]
-    C --> E
-    D --> E
-    
-    style A fill:#2196f3
-    style E fill:#4caf50
+   A[📋 Markdown] --> B[🎯 Token Efficient]
+   A --> C[👥 Human Readable]
+   A --> D[📊 Clear Hierarchy]
+   
+   B --> E[✅ GPT-5<br/>Recommended]
+   C --> E
+   D --> E
+   
+   style A fill:#2d3748,stroke:#2196f3,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -83,17 +87,21 @@ graph LR
 
 ```mermaid
 graph TD
-    A[🏷️ XML Tags] --> B[🤖 Claude Native<br/>Fluency]
-    A --> C[📄 GPT-5 Long<br/>Context]
-    
-    B --> D[&lt;instructions&gt;<br/>&lt;document&gt;<br/>&lt;examples&gt;<br/>&lt;thinking&gt;]
-    C --> E[&lt;code_editing_rules&gt;<br/>&lt;guiding_principles&gt;<br/>Custom Tags]
-    
-    D --> F[✨ Precise<br/>Differentiation]
-    E --> F
-    
-    style A fill:#ff9800
-    style F fill:#4caf50
+   A[🏷️ XML Tags] --> B[🤖 Claude Native<br/>Fluency]
+   A --> C[📄 GPT-5 Long<br/>Context]
+   
+   B --> D[&lt;instructions&gt;<br/>&lt;document&gt;<br/>&lt;examples&gt;<br/>&lt;thinking&gt;]
+   C --> E[&lt;code_editing_rules&gt;<br/>&lt;guiding_principles&gt;<br/>Custom Tags]
+   
+   D --> F[✨ Precise<br/>Differentiation]
+   E --> F
+   
+   style A fill:#2d3748,stroke:#ff9800,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -164,18 +172,21 @@ Core principles to follow
 
 ```mermaid
 graph TB
-    A[⚙️ JSON] --> B[📤 OUTPUT Focus]
-    B --> C[🔧 Structured Output]
-    B --> D[🛠️ Tool Calling]
-    B --> E[🤖 API Integration]
-    
-    C --> F[✅ Predictable<br/>Parsable]
-    D --> F
-    E --> F
-    
-    style A fill:#9c27b0
-    style B fill:#e1bee7
-    style F fill:#4caf50
+   A[⚙️ JSON] --> B[📤 OUTPUT Focus]
+   B --> C[🔧 Structured Output]
+   B --> D[🛠️ Tool Calling]
+   B --> E[🤖 API Integration]
+   
+   C --> F[✅ Predictable<br/>Parsable]
+   D --> F
+   E --> F
+   
+   style A fill:#2d3748,stroke:#9c27b0,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -233,16 +244,18 @@ To translate this analysis into an actionable guide, the following table provide
 
 ```mermaid
 graph LR
-    A[📝 Input Structure] --> B[Markdown + XML]
-    C[⚙️ Output Contract] --> D[JSON Only]
-    
-    B --> E[🎯 Human Readable<br/>Token Efficient<br/>Hierarchical]
-    D --> F[🔧 Machine Parsable<br/>API Compatible<br/>Structured]
-    
-    style A fill:#e3f2fd
-    style C fill:#f3e5f5
-    style E fill:#e8f5e8
-    style F fill:#fff3e0
+   A[📝 Input Structure] --> B[Markdown + XML]
+   C[⚙️ Output Contract] --> D[JSON Only]
+   
+   B --> E[🎯 Human Readable<br/>Token Efficient<br/>Hierarchical]
+   D --> F[🔧 Machine Parsable<br/>API Compatible<br/>Structured]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
 ```
 
 **🎯 The Golden Rule: Input Structure ≠ Output Format**

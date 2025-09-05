@@ -4,23 +4,26 @@
 
 ```mermaid
 graph TB
-    A[🧬 Universal Blueprint] --> B[🔍 Real-World Analysis]
-    
-    B --> C[💻 Coding Agents]
-    B --> D[🔬 Research Agents]
-    B --> E[⚙️ Workflow Agents]
-    
-    C --> F[v0, Devin, Bolt.new<br/>Core Identity<br/>State Management<br/>Output Control]
-    
-    D --> G[Multi-Agent Research<br/>Planning Logic<br/>Source Reliability<br/>Tool Selection]
-    
-    E --> H[Manus Agent<br/>Explicit Agentic Loop<br/>Structured Execution<br/>Predictable Behavior]
-    
-    style A fill:#e3f2fd
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#ffebee
+   A[🧬 Universal Blueprint] --> B[🔍 Real-World Analysis]
+   
+   B --> C[💻 Coding Agents]
+   B --> D[🔬 Research Agents]
+   B --> E[⚙️ Workflow Agents]
+   
+   C --> F[v0, Devin, Bolt.new<br/>Core Identity<br/>State Management<br/>Output Control]
+   
+   D --> G[Multi-Agent Research<br/>Planning Logic<br/>Source Reliability<br/>Tool Selection]
+   
+   E --> H[Manus Agent<br/>Explicit Agentic Loop<br/>Structured Execution<br/>Predictable Behavior]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#f06292,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -41,21 +44,25 @@ To ground the universal blueprint in concrete practice, this section provides a 
 
 ```mermaid
 graph TD
-    A[💻 Coding Agent Architecture] --> B[👤 Core Identity]
-    A --> C[🏗️ State Management]
-    A --> D[🧠 Cognitive Engine]
-    A --> E[📤 Output Control]
-    
-    B --> F["You are v0, Vercel's AI-powered assistant"]
-    C --> G[<system_constraints><br/>OS, Shell Commands<br/>Sandbox Limitations]
-    D --> H[<Thinking> tags<br/>Holistic Planning<br/>Project Structure]
-    E --> I[<boltArtifact><br/><boltAction><br/>Programmatic Parsing]
-    
-    style A fill:#e8f5e8
-    style F fill:#c8e6c9
-    style G fill:#a5d6a7
-    style H fill:#81c784
-    style I fill:#4caf50
+   A[💻 Coding Agent Architecture] --> B[👤 Core Identity]
+   A --> C[🏗️ State Management]
+   A --> D[🧠 Cognitive Engine]
+   A --> E[📤 Output Control]
+   
+   B --> F["You are v0, Vercel's AI-powered assistant"]
+   C --> G[<system_constraints><br/>OS, Shell Commands<br/>Sandbox Limitations]
+   D --> H[<Thinking> tags<br/>Holistic Planning<br/>Project Structure]
+   E --> I[<boltArtifact><br/><boltAction><br/>Programmatic Parsing]
+   
+   style A fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style I fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -135,21 +142,26 @@ The Bolt.new prompt goes further, demanding holistic thinking: "CRITICAL: Think 
 
 ```mermaid
 graph TD
-    A[🔬 Research Agent] --> B[🎯 Query Decomposition]
-    B --> C[🔍 Progressive Search]
-    C --> D[👥 Sub-Agent Delegation]
-    D --> E[🔗 Source Synthesis]
-    
-    A --> F[📚 Tool Selection Logic]
-    F --> G[🌐 web_search<br/>📄 read_document<br/>🎯 specialized_search]
-    
-    A --> H[⚖️ Reliability Guardrails]
-    H --> I[📋 Source Citation<br/>🔍 Fact Verification<br/>✅ Quality Control]
-    
-    style A fill:#fff3e0
-    style E fill:#ff9800
-    style G fill:#ffcc02
-    style I fill:#ff5722
+   A[🔬 Research Agent] --> B[🎯 Query Decomposition]
+   B --> C[🔍 Progressive Search]
+   C --> D[👥 Sub-Agent Delegation]
+   D --> E[🔗 Source Synthesis]
+   
+   A --> F[📚 Tool Selection Logic]
+   F --> G[🌐 web_search<br/>📄 read_document<br/>🎯 specialized_search]
+   
+   A --> H[⚖️ Reliability Guardrails]
+   H --> I[📋 Source Citation<br/>🔍 Fact Verification<br/>✅ Quality Control]
+   
+   style A fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#ff9800,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#ffcc02,stroke-width:2px,color:#e2e8f0
+   style H fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style I fill:#2d3748,stroke:#ff5722,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -220,24 +232,24 @@ document search tools if available."
 
 ```mermaid
 graph TD
-    A[⚙️ Manus Agent] --> B[📋 Explicit Agent Loop]
-    
-    B --> C[🔍 1. Analyze Events<br/>Perception Stage]
-    C --> D[🛠️ 2. Select Tools<br/>Planning Stage]
-    D --> E[⏳ 3. Wait for Execution<br/>Action Stage]
-    E --> F[🔄 4. Iterate<br/>One Tool Per Cycle]
-    F --> G[📤 5. Submit Results<br/>Output Stage]
-    G --> H[⏸️ 6. Enter Standby<br/>Loop Completion]
-    H --> C
-    
-    style A fill:#ffebee
-    style B fill:#ffcdd2
-    style C fill:#f8bbd9
-    style D fill:#f48fb1
-    style E fill:#e91e63
-    style F fill:#ad1457
-    style G fill:#880e4f
-    style H fill:#4a148c
+   A[⚙️ Manus Agent] --> B[📋 Explicit Agent Loop]
+   
+   B --> C[🔍 1. Analyze Events<br/>Perception Stage]
+   C --> D[🛠️ 2. Select Tools<br/>Planning Stage]
+   D --> E[⏳ 3. Wait for Execution<br/>Action Stage]
+   E --> F[🔄 4. Iterate<br/>One Tool Per Cycle]
+   F --> G[📤 5. Submit Results<br/>Output Stage]
+   G --> H[⏸️ 6. Enter Standby<br/>Loop Completion]
+   H --> C
+   
+   style A fill:#2d3748,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#f48fb1,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#e91e63,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#ad1457,stroke-width:2px,color:#e2e8f0
+   style G fill:#1a202c,stroke:#880e4f,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#4a148c,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -311,18 +323,18 @@ This explicit definition of the agent's execution model leaves no room for ambig
 
 ```mermaid
 graph TB
-    A[🎨 Intuitive Crafting] --> B[🔄 Transformation]
-    B --> C[🏗️ Systematic Architecture]
-    
-    A --> D[Simple Instructions<br/>Trial & Error<br/>Subjective Evaluation]
-    
-    C --> E[Complex Cognitive Systems<br/>Empirical Rigor<br/>Structured Precision]
-    
-    style A fill:#ffcdd2
-    style B fill:#fff3e0
-    style C fill:#e8f5e8
-    style D fill:#ffebee
-    style E fill:#f1f8e9
+   A[🎨 Intuitive Crafting] --> B[🔄 Transformation]
+   B --> C[🏗️ Systematic Architecture]
+   
+   A --> D[Simple Instructions<br/>Trial & Error<br/>Subjective Evaluation]
+   
+   C --> E[Complex Cognitive Systems<br/>Empirical Rigor<br/>Structured Precision]
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -349,17 +361,19 @@ This tutorial has delineated a comprehensive framework for mastering this new pa
 
 ```mermaid
 graph LR
-    A[📋 Input Framework] --> B[XML + Markdown]
-    C[📤 Output Contract] --> D[JSON Standard]
-    
-    B --> E[Hierarchical Structure<br/>Clear Instructions<br/>Human Readable]
-    
-    D --> F[Machine Parsable<br/>API Compatible<br/>Tool Integration]
-    
-    style A fill:#e8f5e8
-    style C fill:#fff3e0
-    style E fill:#c8e6c9
-    style F fill:#ffcc02
+   A[📋 Input Framework] --> B[XML + Markdown]
+   C[📤 Output Contract] --> D[JSON Standard]
+   
+   B --> E[Hierarchical Structure<br/>Clear Instructions<br/>Human Readable]
+   
+   D --> F[Machine Parsable<br/>API Compatible<br/>Tool Integration]
+   
+   style A fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#ffcc02,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -409,24 +423,31 @@ For **general prompting**, the key takeaway is the necessity of a model-specific
 
 ```mermaid
 graph TD
-    A[🧬 Universal Blueprint] --> B[Six Core Components]
-    
-    B --> C[👤 Core Identity]
-    B --> D[⚖️ Operational Directives]
-    B --> E[🛠️ Capabilities]
-    B --> F[🧠 Cognitive Engine]
-    B --> G[💾 State Management]
-    B --> H[📤 Output Control]
-    
-    C --> I[🤖 Autonomous Agent]
-    D --> I
-    E --> I
-    F --> I
-    G --> I
-    H --> I
-    
-    style A fill:#e3f2fd
-    style I fill:#4caf50
+   A[🧬 Universal Blueprint] --> B[Six Core Components]
+   
+   B --> C[👤 Core Identity]
+   B --> D[⚖️ Operational Directives]
+   B --> E[🛠️ Capabilities]
+   B --> F[🧠 Cognitive Engine]
+   B --> G[💾 State Management]
+   B --> H[📤 Output Control]
+   
+   C --> I[🤖 Autonomous Agent]
+   D --> I
+   E --> I
+   F --> I
+   G --> I
+   H --> I
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style G fill:#1a202c,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style H fill:#1a202c,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
+   style I fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -491,18 +512,18 @@ By systematically defining each of these components, developers can construct ag
 
 ```mermaid
 graph LR
-    A[📝 Single-Turn<br/>Interactions] --> B[🔄 Evolution]
-    B --> C[🤖 Persistent<br/>Autonomous Agents]
-    
-    A --> D[Basic Instructions<br/>Simple Queries<br/>Manual Oversight]
-    
-    C --> E[Complex Architecture<br/>Autonomous Operation<br/>Self-Correction]
-    
-    style A fill:#ffcdd2
-    style B fill:#fff3e0
-    style C fill:#e8f5e8
-    style D fill:#ffebee
-    style E fill:#f1f8e9
+   A[📝 Single-Turn<br/>Interactions] --> B[🔄 Evolution]
+   B --> C[🤖 Persistent<br/>Autonomous Agents]
+   
+   A --> D[Basic Instructions<br/>Simple Queries<br/>Manual Oversight]
+   
+   C --> E[Complex Architecture<br/>Autonomous Operation<br/>Self-Correction]
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -525,16 +546,16 @@ The blueprints and techniques outlined in this guide provide a definitive roadma
 
 ```mermaid
 graph TB
-    A[🎓 This Guide] --> B[📚 Universal Framework]
-    B --> C[🛠️ Practical Tools]
-    C --> D[🎯 Production Systems]
-    D --> E[🚀 AI Future]
-    
-    style A fill:#e3f2fd
-    style B fill:#f3e5f5
-    style C fill:#fff3e0
-    style D fill:#e8f5e8
-    style E fill:#4caf50
+   A[🎓 This Guide] --> B[📚 Universal Framework]
+   B --> C[🛠️ Practical Tools]
+   C --> D[🎯 Production Systems]
+   D --> E[🚀 AI Future]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 **🌟 From Theory to Production-Ready AI Systems**

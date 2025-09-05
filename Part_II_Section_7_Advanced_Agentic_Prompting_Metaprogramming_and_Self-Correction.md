@@ -4,23 +4,26 @@
 
 ```mermaid
 graph TB
-    A[🤖 Basic Agents] --> B[🧠 Advanced Adaptive Systems]
-    
-    B --> C[🔍 Metaprompting]
-    B --> D[📂 Prompt Folding]
-    B --> E[🛡️ Uncertainty Handling]
-    
-    C --> F[Self-Optimization<br/>Critique & Refinement<br/>Automated Debugging]
-    
-    D --> G[Dynamic Sub-Prompts<br/>Context-Aware Instructions<br/>Flexible Architecture]
-    
-    E --> H[Escape Hatches<br/>Graceful Degradation<br/>Reliability Protocols]
-    
-    style A fill:#ffcdd2
-    style B fill:#e8f5e8
-    style C fill:#e3f2fd
-    style D fill:#f3e5f5
-    style E fill:#fff3e0
+   A[🤖 Basic Agents] --> B[🧠 Advanced Adaptive Systems]
+   
+   B --> C[🔍 Metaprompting]
+   B --> D[📂 Prompt Folding]
+   B --> E[🛡️ Uncertainty Handling]
+   
+   C --> F[Self-Optimization<br/>Critique & Refinement<br/>Automated Debugging]
+   
+   D --> G[Dynamic Sub-Prompts<br/>Context-Aware Instructions<br/>Flexible Architecture]
+   
+   E --> H[Escape Hatches<br/>Graceful Degradation<br/>Reliability Protocols]
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -41,20 +44,23 @@ The frontier of agent design involves creating systems that are not only autonom
 
 ```mermaid
 graph TD
-    A[🔄 Iterative Refinement Cycle] --> B[🤖 Meta-Agent]
-    
-    B --> C[📋 Original System Prompt]
-    C --> D[🔍 Analysis Process]
-    D --> E[📊 Structured Feedback]
-    E --> F[⚡ Optimized Prompt]
-    F --> B
-    
-    D --> G[Ambiguity Detection<br/>Conflict Identification<br/>Assumption Analysis<br/>Definition Gaps]
-    
-    style A fill:#e3f2fd
-    style B fill:#b3e5fc
-    style F fill:#4caf50
-    style G fill:#fff3e0
+   A[🔄 Iterative Refinement Cycle] --> B[🤖 Meta-Agent]
+   
+   B --> C[📋 Original System Prompt]
+   C --> D[🔍 Analysis Process]
+   D --> E[📊 Structured Feedback]
+   E --> F[⚡ Optimized Prompt]
+   F --> B
+   
+   D --> G[Ambiguity Detection<br/>Conflict Identification<br/>Assumption Analysis<br/>Definition Gaps]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#81c5e6,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -139,28 +145,36 @@ By feeding an agent's system prompt into this meta-agent, a developer can receiv
 
 ```mermaid
 graph TD
-    A[🎯 High-Level Task] --> B[🧠 Orchestrator Agent]
-    
-    B --> C[📋 Dynamic Planning]
-    C --> D[🔄 Context Analysis]
-    D --> E[⚡ Sub-Prompt Generation]
-    
-    E --> F[🤖 Specialized Sub-Agent 1]
-    E --> G[🤖 Specialized Sub-Agent 2]
-    E --> H[🤖 Specialized Sub-Agent N]
-    
-    F --> I[📤 Step 1 Result]
-    G --> J[📤 Step 2 Result]
-    H --> K[📤 Step N Result]
-    
-    I --> L[🔄 Integration & Next Context]
-    J --> L
-    K --> L
-    
-    style A fill:#f3e5f5
-    style B fill:#e1bee7
-    style E fill:#ce93d8
-    style L fill:#4caf50
+   A[🎯 High-Level Task] --> B[🧠 Orchestrator Agent]
+   
+   B --> C[📋 Dynamic Planning]
+   C --> D[🔄 Context Analysis]
+   D --> E[⚡ Sub-Prompt Generation]
+   
+   E --> F[🤖 Specialized Sub-Agent 1]
+   E --> G[🤖 Specialized Sub-Agent 2]
+   E --> H[🤖 Specialized Sub-Agent N]
+   
+   F --> I[📤 Step 1 Result]
+   G --> J[📤 Step 2 Result]
+   H --> K[📤 Step N Result]
+   
+   I --> L[🔄 Integration & Next Context]
+   J --> L
+   K --> L
+   
+   style A fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#ce93d8,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style I fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style J fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style K fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style L fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -235,26 +249,28 @@ Adaptive Execution
 
 ```mermaid
 graph TD
-    A[🎯 Agent Decision Point] --> B{Confidence Level?}
-    
-    B -->|High| C[✅ Execute Action]
-    B -->|Medium| D[🔍 Gather More Info]
-    B -->|Low| E[🚨 Escape Hatch Triggered]
-    
-    D --> F[Additional Context<br/>Tool Usage<br/>Verification Steps]
-    F --> A
-    
-    E --> G[🤝 User Clarification]
-    E --> H[📋 Option Presentation]
-    E --> I[⚠️ Uncertainty Declaration]
-    
-    style A fill:#e3f2fd
-    style C fill:#4caf50
-    style D fill:#ff9800
-    style E fill:#f44336
-    style G fill:#2196f3
-    style H fill:#9c27b0
-    style I fill:#ff5722
+   A[🎯 Agent Decision Point] --> B{Confidence Level?}
+   
+   B -->|High| C[✅ Execute Action]
+   B -->|Medium| D[🔍 Gather More Info]
+   B -->|Low| E[🚨 Escape Hatch Triggered]
+   
+   D --> F[Additional Context<br/>Tool Usage<br/>Verification Steps]
+   F --> A
+   
+   E --> G[🤝 User Clarification]
+   E --> H[📋 Option Presentation]
+   E --> I[⚠️ Uncertainty Declaration]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ffb74d,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#ff9800,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#f44336,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#ff9800,stroke-width:2px,color:#e2e8f0
+   style G fill:#1a202c,stroke:#2196f3,stroke-width:2px,color:#e2e8f0
+   style H fill:#1a202c,stroke:#9c27b0,stroke-width:2px,color:#e2e8f0
+   style I fill:#1a202c,stroke:#ff5722,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -364,16 +380,16 @@ Building these protocols into the agent's core logic transforms it from a brittl
 
 ```mermaid
 graph LR
-    A[🤖 Basic Agent] --> B[🧠 Metaprogramming]
-    B --> C[📂 Dynamic Folding]
-    C --> D[🛡️ Uncertainty Handling]
-    D --> E[🚀 Adaptive System]
-    
-    style A fill:#ffcdd2
-    style B fill:#e3f2fd
-    style C fill:#f3e5f5
-    style D fill:#fff3e0
-    style E fill:#4caf50
+   A[🤖 Basic Agent] --> B[🧠 Metaprogramming]
+   B --> C[📂 Dynamic Folding]
+   C --> D[🛡️ Uncertainty Handling]
+   D --> E[🚀 Adaptive System]
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 **🎯 The Path to Truly Intelligent Agents**

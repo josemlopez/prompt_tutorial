@@ -4,23 +4,23 @@
 
 ```mermaid
 graph TB
-    A[🧬 System Prompt Architecture] --> B[📋 Modular Components]
-    
-    B --> C[👤 Core Identity]
-    B --> D[⚖️ Operational Directives]
-    B --> E[🛠️ Capabilities]
-    B --> F[🧠 Cognitive Engine]
-    B --> G[💾 State Management]
-    B --> H[📤 Output Control]
-    
-    style A fill:#e3f2fd
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#ffebee
-    style F fill:#f1f8e9
-    style G fill:#e0f2f1
-    style H fill:#fce4ec
+   A[🧬 System Prompt Architecture] --> B[📋 Modular Components]
+   
+   B --> C[👤 Core Identity]
+   B --> D[⚖️ Operational Directives]
+   B --> E[🛠️ Capabilities]
+   B --> F[🧠 Cognitive Engine]
+   B --> G[💾 State Management]
+   B --> H[📤 Output Control]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style G fill:#1a202c,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style H fill:#1a202c,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -47,15 +47,17 @@ This modular structure provides a powerful and reusable blueprint for agent desi
 
 ```mermaid
 graph LR
-    A[🎭 Identity Foundation] --> B[Who are you?]
-    A --> C[What is your mission?]
-    
-    B --> D[🏷️ Agent Name<br/>🏢 Creator<br/>🎯 Primary Function]
-    C --> E[📋 Overarching Goal<br/>🎯 Success Criteria<br/>🌍 Scope of Action]
-    
-    style A fill:#e8f5e8
-    style D fill:#c8e6c9
-    style E fill:#a5d6a7
+   A[🎭 Identity Foundation] --> B[Who are you?]
+   A --> C[What is your mission?]
+   
+   B --> D[🏷️ Agent Name<br/>🏢 Creator<br/>🎯 Primary Function]
+   C --> E[📋 Overarching Goal<br/>🎯 Success Criteria<br/>🌍 Scope of Action]
+   
+   style A fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -85,18 +87,21 @@ You specialize in [DOMAIN/EXPERTISE].
 
 ```mermaid
 graph TD
-    A[⚖️ Operational Framework] --> B[✅ Positive Instructions]
-    A --> C[❌ Negative Constraints]
-    A --> D[🔧 Error Handling]
-    
-    B --> E[Must Do Actions]
-    C --> F[Must Not Do Actions]
-    D --> G[Uncertainty Protocols<br/>Failure Recovery<br/>Safety Measures]
-    
-    style A fill:#fff3e0
-    style B fill:#e8f5e8
-    style C fill:#ffebee
-    style D fill:#e3f2fd
+   A[⚖️ Operational Framework] --> B[✅ Positive Instructions]
+   A --> C[❌ Negative Constraints]
+   A --> D[🔧 Error Handling]
+   
+   B --> E[Must Do Actions]
+   C --> F[Must Not Do Actions]
+   D --> G[Uncertainty Protocols<br/>Failure Recovery<br/>Safety Measures]
+   
+   style A fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style G fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -145,18 +150,21 @@ This component lays out the immutable laws that govern the agent's behavior. It 
 
 ```mermaid
 graph TB
-    A[🛠️ Tool Arsenal] --> B[📝 Purpose Description]
-    A --> C[⚙️ Input Parameters]
-    A --> D[📤 Output Format]
-    
-    B --> E[Clear Function Definition]
-    C --> F[Parameter Types<br/>Required/Optional<br/>Value Constraints]
-    D --> G[Response Structure<br/>Data Types<br/>Error Formats]
-    
-    style A fill:#ffebee
-    style E fill:#ffcdd2
-    style F fill:#f8bbd9
-    style G fill:#f48fb1
+   A[🛠️ Tool Arsenal] --> B[📝 Purpose Description]
+   A --> C[⚙️ Input Parameters]
+   A --> D[📤 Output Format]
+   
+   B --> E[Clear Function Definition]
+   C --> F[Parameter Types<br/>Required/Optional<br/>Value Constraints]
+   D --> G[Response Structure<br/>Data Types<br/>Error Formats]
+   
+   style A fill:#2d3748,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#f48fb1,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -209,21 +217,25 @@ This is arguably the most critical component for enabling autonomy. It provides 
 
 ```mermaid
 graph TD
-    A[🧠 Cognitive Process] --> B[📋 Planning Phase]
-    A --> C[🔄 Self-Correction]
-    A --> D[🔍 Verification]
-    A --> E[♻️ Iteration Loop]
-    
-    B --> F[Step-by-step breakdown<br/>Tool selection<br/>Parameter setting]
-    C --> G[Error analysis<br/>Plan revision<br/>Alternative approaches]
-    D --> H[Outcome validation<br/>Success confirmation<br/>Error detection]
-    E --> I[Continuous improvement<br/>Goal tracking<br/>Failure recovery]
-    
-    style A fill:#f1f8e9
-    style B fill:#dcedc1
-    style C fill:#c5e1a5
-    style D fill:#aed581
-    style E fill:#9ccc65
+   A[🧠 Cognitive Process] --> B[📋 Planning Phase]
+   A --> C[🔄 Self-Correction]
+   A --> D[🔍 Verification]
+   A --> E[♻️ Iteration Loop]
+   
+   B --> F[Step-by-step breakdown<br/>Tool selection<br/>Parameter setting]
+   C --> G[Error analysis<br/>Plan revision<br/>Alternative approaches]
+   D --> H[Outcome validation<br/>Success confirmation<br/>Error detection]
+   E --> I[Continuous improvement<br/>Goal tracking<br/>Failure recovery]
+   
+   style A fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#aed581,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#c5e1a5,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#9ccc65,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#aed581,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#c5e1a5,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style I fill:#2d3748,stroke:#9ccc65,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -276,18 +288,18 @@ Finally, I will verify [SUCCESS_CRITERIA].
 
 ```mermaid
 graph LR
-    A[💾 State Awareness] --> B[🏗️ Static Environment]
-    A --> C[🔄 Dynamic Context]
-    
-    B --> D[Operating System<br/>File Structure<br/>Available Libraries<br/>System Constraints]
-    
-    C --> E[Conversation History<br/>Previous Actions<br/>Current Progress<br/>Memory Usage]
-    
-    style A fill:#e0f2f1
-    style B fill:#b2dfdb
-    style C fill:#80cbc4
-    style D fill:#4db6ac
-    style E fill:#26a69a
+   A[💾 State Awareness] --> B[🏗️ Static Environment]
+   A --> C[🔄 Dynamic Context]
+   
+   B --> D[Operating System<br/>File Structure<br/>Available Libraries<br/>System Constraints]
+   
+   C --> E[Conversation History<br/>Previous Actions<br/>Current Progress<br/>Memory Usage]
+   
+   style A fill:#2d3748,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#80cbc4,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#4db6ac,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#26a69a,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -337,20 +349,23 @@ Constraints: No internet access, 8GB RAM limit
 
 ```mermaid
 graph TB
-    A[📤 Output Management] --> B[📋 Final Format]
-    A --> C[📝 Progress Updates]
-    A --> D[🔧 Tool Preambles]
-    
-    B --> E[JSON Objects<br/>Code Diffs<br/>Reports<br/>Structured Data]
-    
-    C --> F[Status Messages<br/>Progress Indicators<br/>Error Reports<br/>Completion Notices]
-    
-    D --> G[Tool Selection Rationale<br/>Parameter Explanations<br/>Expected Outcomes]
-    
-    style A fill:#fce4ec
-    style B fill:#f8bbd9
-    style C fill:#f48fb1
-    style D fill:#e91e63
+   A[📤 Output Management] --> B[📋 Final Format]
+   A --> C[📝 Progress Updates]
+   A --> D[🔧 Tool Preambles]
+   
+   B --> E[JSON Objects<br/>Code Diffs<br/>Reports<br/>Structured Data]
+   
+   C --> F[Status Messages<br/>Progress Indicators<br/>Error Reports<br/>Completion Notices]
+   
+   D --> G[Tool Selection Rationale<br/>Parameter Explanations<br/>Expected Outcomes]
+   
+   style A fill:#2d3748,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#f48fb1,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#e91e63,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#f48fb1,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#e91e63,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -416,25 +431,31 @@ This table serves as a practical checklist and template for developers, translat
 
 ```mermaid
 graph TB
-    A[🧬 System Prompt Blueprint] --> B[🏗️ Modular Architecture]
-    
-    B --> C[👤 Identity]
-    B --> D[⚖️ Rules]
-    B --> E[🛠️ Tools]
-    B --> F[🧠 Cognition]
-    B --> G[💾 Memory]
-    B --> H[📤 Output]
-    
-    C --> I[🤖 Robust Agent]
-    D --> I
-    E --> I
-    F --> I
-    G --> I
-    H --> I
-    
-    style A fill:#e3f2fd
-    style B fill:#f3e5f5
-    style I fill:#4caf50
+   A[🧬 System Prompt Blueprint] --> B[🏗️ Modular Architecture]
+   
+   B --> C[👤 Identity]
+   B --> D[⚖️ Rules]
+   B --> E[🛠️ Tools]
+   B --> F[🧠 Cognition]
+   B --> G[💾 Memory]
+   B --> H[📤 Output]
+   
+   C --> I[🤖 Robust Agent]
+   D --> I
+   E --> I
+   F --> I
+   G --> I
+   H --> I
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style G fill:#1a202c,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style H fill:#1a202c,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
+   style I fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 **🎯 Six Components = One Powerful Agent**

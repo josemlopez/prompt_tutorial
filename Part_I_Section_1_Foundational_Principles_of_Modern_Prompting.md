@@ -13,10 +13,10 @@ graph TB
     B --> E[❌ Ambiguous<br/>❌ Subjective<br/>❌ Unreliable]
     D --> F[✅ Precise<br/>✅ Empirical<br/>✅ Production-Ready]
     
-    style A fill:#ffcccb
-    style C fill:#90EE90
-    style E fill:#ffcccb
-    style F fill:#90EE90
+    style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+    style C fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+    style E fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+    style F fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -49,8 +49,14 @@ flowchart LR
     B --> B2
     B --> B3
     
-    style A fill:#ffcccb
-    style B fill:#90EE90
+    style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+    style B fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+    style A1 fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+    style A2 fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+    style A3 fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+    style B1 fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+    style B2 fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+    style B3 fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -96,24 +102,27 @@ To achieve this precision, a fundamental best practice across all leading models
 
 ```mermaid
 graph TD
-    A[Complete Context] --> B[Strategic Contextualization]
-    B --> C[Few-Shot Examples]
-    
-    C --> D[2-5 Examples<br/>Optimal Range]
-    C --> E[Consistent Structure]
-    C --> F[Positive Patterns]
-    
-    D --> G[✅ Pattern Recognition]
-    E --> G
-    F --> G
-    
-    G --> H[🎯 Desired Output]
-    
-    style A fill:#e1f5fe
-    style B fill:#81d4fa
-    style C fill:#29b6f6
-    style G fill:#90EE90
-    style H fill:#4caf50
+   A[Complete Context] --> B[Strategic Contextualization]
+   B --> C[Few-Shot Examples]
+   
+   C --> D[2-5 Examples<br/>Optimal Range]
+   C --> E[Consistent Structure]
+   C --> F[Positive Patterns]
+   
+   D --> G[✅ Pattern Recognition]
+   E --> G
+   F --> G
+   
+   G --> H[🎯 Desired Output]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#42a5f5,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#1e88e5,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#1976d2,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#1976d2,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#1976d2,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style H fill:#1a202c,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -165,22 +174,27 @@ There is a balance to be struck in the number of examples provided. For many tas
 
 ```mermaid
 graph TD
-    A[🚀 Start: Zero-Shot Baseline] --> B{Performance<br/>Adequate?}
-    
-    B -->|No| C[📝 Add Few-Shot Examples]
-    C --> D[🔄 Iterate & Refine]
-    D --> E[📊 Empirical Evaluation]
-    E --> F{Meets Success<br/>Criteria?}
-    
-    F -->|No| G[🤖 Metaprompting<br/>Critique]
-    G --> D
-    
-    F -->|Yes| H[✅ Production Ready]
-    B -->|Yes| H
-    
-    style A fill:#e3f2fd
-    style H fill:#4caf50
-    style G fill:#fff3e0
+   A[🚀 Start: Zero-Shot Baseline] --> B{Performance<br/>Adequate?}
+   
+   B -->|No| C[📝 Add Few-Shot Examples]
+   C --> D[🔄 Iterate & Refine]
+   D --> E[📊 Empirical Evaluation]
+   E --> F{Meets Success<br/>Criteria?}
+   
+   F -->|No| G[🤖 Metaprompting<br/>Critique]
+   G --> D
+   
+   F -->|Yes| H[✅ Production Ready]
+   B -->|Yes| H
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ffb74d,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#4dd0e1,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#ffb74d,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>

@@ -4,23 +4,26 @@
 
 ```mermaid
 graph TB
-    A[🧬 Universal Blueprint] --> B[🎯 Model-Specific Implementation]
-    
-    B --> C[🟢 GPT-5 Agents]
-    B --> D[🔵 Claude Agents]
-    B --> E[🔴 Open Source Frameworks]
-    
-    C --> F[⚡ Autonomy Control<br/>🔄 Responses API<br/>🎯 Precision Tuning]
-    
-    D --> G[📄 Long Context<br/>🏷️ XML Architecture<br/>🔀 Multi-Agent Orchestration]
-    
-    E --> H[🔗 LangChain<br/>🤖 AutoGen<br/>🛠️ Gemini Integration]
-    
-    style A fill:#e3f2fd
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#e8eaf6
-    style E fill:#ffebee
+   A[🧬 Universal Blueprint] --> B[🎯 Model-Specific Implementation]
+   
+   B --> C[🟢 GPT-5 Agents]
+   B --> D[🔵 Claude Agents]
+   B --> E[🔴 Open Source Frameworks]
+   
+   C --> F[⚡ Autonomy Control<br/>🔄 Responses API<br/>🎯 Precision Tuning]
+   
+   D --> G[📄 Long Context<br/>🏷️ XML Architecture<br/>🔀 Multi-Agent Orchestration]
+   
+   E --> H[🔗 LangChain<br/>🤖 AutoGen<br/>🛠️ Gemini Integration]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#7986cb,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#7986cb,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#f06292,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -51,18 +54,21 @@ Building agents with GPT-5 requires a focus on managing its advanced reasoning c
 
 ```mermaid
 graph TD
-    A[🎛️ Eagerness Control] --> B[⚙️ reasoning_effort]
-    A --> C[📋 Persistence Rules]
-    A --> D[🛑 Stop Conditions]
-    
-    B --> E[High: Thorough solving<br/>Low: Reduced latency]
-    C --> F[Explicit autonomy instructions<br/>Uncertainty handling rules]
-    D --> G[Task completion criteria<br/>Runaway prevention]
-    
-    style A fill:#e8f5e8
-    style E fill:#c8e6c9
-    style F fill:#a5d6a7
-    style G fill:#81c784
+   A[🎛️ Eagerness Control] --> B[⚙️ reasoning_effort]
+   A --> C[📋 Persistence Rules]
+   A --> D[🛑 Stop Conditions]
+   
+   B --> E[High: Thorough solving<br/>Low: Reduced latency]
+   C --> F[Explicit autonomy instructions<br/>Uncertainty handling rules]
+   D --> G[Task completion criteria<br/>Runaway prevention]
+   
+   style A fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#f44336,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -107,19 +113,23 @@ you encounter uncertainty.
 
 ```mermaid
 graph LR
-    A[🔄 Multi-turn Workflow] --> B[📊 Responses API]
-    B --> C[💾 Persisted Context]
-    C --> D[⚡ Efficiency Gain]
-    
-    A1[Traditional:<br/>Re-send full history] --> A
-    B1[Modern:<br/>previous_response_id] --> B
-    C1[Preserved reasoning<br/>Maintained state] --> C
-    D1[Reduced tokens<br/>Faster execution] --> D
-    
-    style A fill:#ffcdd2
-    style B fill:#fff3e0
-    style C fill:#e8f5e8
-    style D fill:#4caf50
+   A[🔄 Multi-turn Workflow] --> B[📊 Responses API]
+   B --> C[💾 Persisted Context]
+   C --> D[⚡ Efficiency Gain]
+   
+   A1[Traditional:<br/>Re-send full history] --> A
+   B1[Modern:<br/>previous_response_id] --> B
+   C1[Preserved reasoning<br/>Maintained state] --> C
+   D1[Reduced tokens<br/>Faster execution] --> D
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
+   style A1 fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B1 fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style C1 fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D1 fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -160,25 +170,26 @@ Claude's architecture, with its massive context window and native fluency with X
 
 ```mermaid
 graph TD
-    A[📄 Master System Prompt] --> B[🤖 Orchestrator Agent]
-    A --> C[👥 Sub-Agent Definitions]
-    
-    B --> D[🧩 Task Decomposition]
-    B --> E[📋 Sub-task Assignment]
-    B --> F[🔄 Workflow Coordination]
-    
-    C --> G[🔍 WebSearchAgent]
-    C --> H[📊 DataAnalysisAgent]
-    C --> I[📝 ReportWriterAgent]
-    
-    style A fill:#e8eaf6
-    style B fill:#c5cae9
-    style D fill:#9fa8da
-    style E fill:#7986cb
-    style F fill:#5c6bc0
-    style G fill:#3f51b5
-    style H fill:#3f51b5
-    style I fill:#3f51b5
+   A[📄 Master System Prompt] --> B[🤖 Orchestrator Agent]
+   A --> C[👥 Sub-Agent Definitions]
+   
+   B --> D[🧩 Task Decomposition]
+   B --> E[📋 Sub-task Assignment]
+   B --> F[🔄 Workflow Coordination]
+   
+   C --> G[🔍 WebSearchAgent]
+   C --> H[📊 DataAnalysisAgent]
+   C --> I[📝 ReportWriterAgent]
+   
+   style A fill:#2d3748,stroke:#7986cb,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#9fa8da,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#7986cb,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#5c6bc0,stroke-width:2px,color:#e2e8f0
+   style F fill:#1a202c,stroke:#3f51b5,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#3f51b5,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#3f51b5,stroke-width:2px,color:#e2e8f0
+   style I fill:#2d3748,stroke:#3f51b5,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -238,21 +249,21 @@ Open-source agent frameworks like LangChain and AutoGen provide the surrounding 
 
 ```mermaid
 graph TB
-    A[🧬 Universal Blueprint] --> B[🔧 Framework Mapping]
-    
-    B --> C[🤖 AutoGen]
-    B --> D[🔗 LangChain]
-    
-    C --> E[AssistantAgent Class<br/>system_message param<br/>Tool functions list]
-    
-    D --> F[Prompt Template<br/>System message container<br/>Agent executor tools]
-    
-    style A fill:#e3f2fd
-    style B fill:#f3e5f5
-    style C fill:#fff3e0
-    style D fill:#ffebee
-    style E fill:#fff8e1
-    style F fill:#ffcdd2
+   A[🧬 Universal Blueprint] --> B[🔧 Framework Mapping]
+   
+   B --> C[🤖 AutoGen]
+   B --> D[🔗 LangChain]
+   
+   C --> E[AssistantAgent Class<br/>system_message param<br/>Tool functions list]
+   
+   D --> F[Prompt Template<br/>System message container<br/>Agent executor tools]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#fff176,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -336,19 +347,22 @@ agent = create_sql_agent(
 
 ```mermaid
 graph LR
-    A[🧬 Universal Blueprint] --> B[🎯 Model Adaptation]
-    
-    B --> C[🟢 GPT-5<br/>Precision Control]
-    B --> D[🔵 Claude<br/>XML Architecture]
-    B --> E[🔴 Open Source<br/>Framework Integration]
-    
-    C --> F[🚀 Production Ready]
-    D --> F
-    E --> F
-    
-    style A fill:#e3f2fd
-    style B fill:#f3e5f5
-    style F fill:#4caf50
+   A[🧬 Universal Blueprint] --> B[🎯 Model Adaptation]
+   
+   B --> C[🟢 GPT-5<br/>Precision Control]
+   B --> D[🔵 Claude<br/>XML Architecture]
+   B --> E[🔴 Open Source<br/>Framework Integration]
+   
+   C --> F[🚀 Production Ready]
+   D --> F
+   E --> F
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#4caf50,stroke-width:2px,color:#e2e8f0
 ```
 
 **🎯 One Blueprint, Multiple Implementations**

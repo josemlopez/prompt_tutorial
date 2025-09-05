@@ -4,21 +4,21 @@
 
 ```mermaid
 graph TB
-    A[🤖 AI Model Families] --> B[🟢 OpenAI GPT]
-    A --> C[🔵 Anthropic Claude]
-    A --> D[🔴 Google Gemini]
-    
-    B --> E[System Messages<br/>Few-Shot Examples<br/>Surgical Precision]
-    C --> F[XML Structure<br/>Thinking Tags<br/>Response Prefilling]
-    D --> G[Multimodal Input<br/>Format Consistency<br/>Clear Prefixes]
-    
-    style A fill:#e3f2fd
-    style B fill:#e8f5e8
-    style C fill:#e3f2fd
-    style D fill:#ffebee
-    style E fill:#f1f8e9
-    style F fill:#e8eaf6
-    style G fill:#fce4ec
+   A[🤖 AI Model Families] --> B[🟢 OpenAI GPT]
+   A --> C[🔵 Anthropic Claude]
+   A --> D[🔴 Google Gemini]
+   
+   B --> E[System Messages<br/>Few-Shot Examples<br/>Surgical Precision]
+   C --> F[XML Structure<br/>Thinking Tags<br/>Response Prefilling]
+   D --> G[Multimodal Input<br/>Format Consistency<br/>Clear Prefixes]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#f06292,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -43,16 +43,19 @@ OpenAI's models have consistently set industry benchmarks, and their prompting b
 
 ```mermaid
 graph LR
-    A[GPT-4 Best Practices] --> B[📋 System Message<br/>Role Assignment]
-    A --> C[📝 User Messages<br/>Specific Tasks]
-    A --> D[📚 Few-Shot Examples<br/>Consistency]
-    
-    B --> E[✅ Persistent Context]
-    C --> E
-    D --> E
-    
-    style A fill:#4caf50
-    style E fill:#81c784
+   A[GPT-4 Best Practices] --> B[📋 System Message<br/>Role Assignment]
+   A --> C[📝 User Messages<br/>Specific Tasks]
+   A --> D[📚 Few-Shot Examples<br/>Consistency]
+   
+   B --> E[✅ Persistent Context]
+   C --> E
+   D --> E
+   
+   style A fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -129,19 +132,23 @@ A highly effective prompt structure for GPT-5 is modular and explicit, typically
 
 ```mermaid
 graph TD
-    A[🎯 Goal] --> B[📤 Return Format]
-    B --> C[⚠️ Warnings]
-    C --> D[📋 Context]
-    
-    A1[Clear objective statement] --> A
-    B1[JSON/Markdown/etc.] --> B
-    C1[Avoid assumptions<br/>Pitfall alerts] --> C
-    D1[Background info<br/>Data & rules] --> D
-    
-    style A fill:#4caf50
-    style B fill:#2196f3
-    style C fill:#ff9800
-    style D fill:#9c27b0
+   A[🎯 Goal] --> B[📤 Return Format]
+   B --> C[⚠️ Warnings]
+   C --> D[📋 Context]
+   
+   A1[Clear objective statement] --> A
+   B1[JSON/Markdown/etc.] --> B
+   C1[Avoid assumptions<br/>Pitfall alerts] --> C
+   D1[Background info<br/>Data & rules] --> D
+   
+   style A fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C fill:#2d3748,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style D fill:#2d3748,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style A1 fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style B1 fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C1 fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style D1 fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -177,18 +184,18 @@ Anthropic's Claude models are architected with a strong emphasis on instruction 
 
 ```mermaid
 graph TD
-    A[🧅 Onion Layer Structure] --> B[👤 Role/Persona]
-    B --> C[📄 Context/Data]
-    C --> D[📚 Examples]
-    D --> E[📋 Rules/Instructions]
-    E --> F[🎯 Immediate Task]
-    
-    style A fill:#e8eaf6
-    style B fill:#c5cae9
-    style C fill:#9fa8da
-    style D fill:#7986cb
-    style E fill:#5c6bc0
-    style F fill:#3f51b5
+   A[🧅 Onion Layer Structure] --> B[👤 Role/Persona]
+   B --> C[📄 Context/Data]
+   C --> D[📚 Examples]
+   D --> E[📋 Rules/Instructions]
+   E --> F[🎯 Immediate Task]
+   
+   style A fill:#2d3748,stroke:#7986cb,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#9fa8da,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#7986cb,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#5c6bc0,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#3f51b5,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#303f9f,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -290,16 +297,17 @@ Google's Gemini models are highly capable multimodal systems, and their text-pro
 
 ```mermaid
 graph LR
-    A[📝 Text Prompt] --> B[🖼️ Image Input]
-    B --> C[📊 Data Extraction]
-    C --> D[📄 CSV Output]
-    
-    A1["Using the provided image of a chart, extract the data into CSV format"] --> A
-    
-    style A fill:#ffcdd2
-    style B fill:#f8bbd9
-    style C fill:#e1bee7
-    style D fill:#d1c4e9
+   A[📝 Text Prompt] --> B[🖼️ Image Input]
+   B --> C[📊 Data Extraction]
+   C --> D[📄 CSV Output]
+   
+   A1["Using the provided image of a chart, extract the data into CSV format"] --> A
+   
+   style A fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
+   style B fill:#2d3748,stroke:#f8bbd9,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#9fa8da,stroke-width:2px,color:#e2e8f0
+   style A1 fill:#4a5568,stroke:#fc8181,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -380,16 +388,19 @@ For example, structuring few-shot examples with prefixes like `Input: [text]` an
 
 ```mermaid
 graph LR
-    A[🔧 System Instruction] --> B[👤 Persistent Role]
-    A --> C[📋 High-Level Rules]
-    A --> D[🎯 Conversation Context]
-    
-    B --> E[✅ Clean User Prompts]
-    C --> E
-    D --> E
-    
-    style A fill:#f44336
-    style E fill:#4caf50
+   A[🔧 System Instruction] --> B[👤 Persistent Role]
+   A --> C[📋 High-Level Rules]
+   A --> D[🎯 Conversation Context]
+   
+   B --> E[✅ Clean User Prompts]
+   C --> E
+   D --> E
+   
+   style A fill:#2d3748,stroke:#f44336,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#ba68c8,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#ffc107,stroke-width:2px,color:#e2e8f0
+   style E fill:#2d3748,stroke:#68d391,stroke-width:2px,color:#e2e8f0
 ```
 
 </div>
@@ -418,20 +429,24 @@ user_prompt: "[SPECIFIC TASK]"
 
 ```mermaid
 graph TB
-    A[🎛️ Model Selection] --> B{Choose Your Path}
-    
-    B --> C[🟢 OpenAI GPT<br/>System + Structure]
-    B --> D[🔵 Anthropic Claude<br/>XML + Thinking]
-    B --> E[🔴 Google Gemini<br/>Consistency + Prefixes]
-    
-    C --> F[🎯 Surgical Precision<br/>⚙️ Parameter Control]
-    D --> G[🧅 Layered Structure<br/>🧠 Chain of Thought]
-    E --> H[🎨 Multimodal Power<br/>📏 Format Sensitivity]
-    
-    style A fill:#e3f2fd
-    style F fill:#e8f5e8
-    style G fill:#e8eaf6
-    style H fill:#ffebee
+   A[🎛️ Model Selection] --> B{Choose Your Path}
+   
+   B --> C[🟢 OpenAI GPT<br/>System + Structure]
+   B --> D[🔵 Anthropic Claude<br/>XML + Thinking]
+   B --> E[🔴 Google Gemini<br/>Consistency + Prefixes]
+   
+   C --> F[🎯 Surgical Precision<br/>⚙️ Parameter Control]
+   D --> G[🧅 Layered Structure<br/>🧠 Chain of Thought]
+   E --> H[🎨 Multimodal Power<br/>📏 Format Sensitivity]
+   
+   style A fill:#2d3748,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style B fill:#1a202c,stroke:#ffb74d,stroke-width:2px,color:#e2e8f0
+   style C fill:#1a202c,stroke:#68d391,stroke-width:2px,color:#e2e8f0
+   style D fill:#1a202c,stroke:#64b5f6,stroke-width:2px,color:#e2e8f0
+   style E fill:#1a202c,stroke:#f06292,stroke-width:2px,color:#e2e8f0
+   style F fill:#2d3748,stroke:#81c784,stroke-width:2px,color:#e2e8f0
+   style G fill:#2d3748,stroke:#7986cb,stroke-width:2px,color:#e2e8f0
+   style H fill:#2d3748,stroke:#f06292,stroke-width:2px,color:#e2e8f0
 ```
 
 **🚀 Master Each Model's Unique Strengths**
